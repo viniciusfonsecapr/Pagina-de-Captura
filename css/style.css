@@ -1,144 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
 *{
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Bebas Neue', cursive;
-}
-
-body{
-    background-color: black;
-}
-
-#menu-h {
-    background-color: #cccccc;
     margin: 0;
     padding: 0;
 }
-
-#menu-h ul{
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+header{
+    background-color: #48C5CE;
     text-align: center;
-    max-width: 800px;
-    list-style: none;
-    text-decoration: none;
-    background-color: #ccccccbb;
-    
-    
-}
-#menu-h ul img{
-    display: inline-block;
-    float: left;
-}
-#menu-h ul li{
-    display: inline;
-    font-size: 20px;
-    
-    
-}
-#menu-h ul li a{
-    display: inline-block;
-    color: rgb(2, 2, 2);
-    padding: 40px;
-    text-align: center;
-    transition:background 1.0s;
-}
-#menu-h ul li a:hover{
-    background-color: white;
-    
-}
-
-.quemsomos{
-    background-image: url(../imagens/fundo.png);
-    width: 100%;
-    background-size: cover;
-    overflow:hidden;
-    padding: 50px;
-    border-style: none;
-    max-width: 3000px;
-    
-   
-}
-
-.ds1{
-    text-align: left;
-    display: block;
     color: white;
-    font-size: 25px;
-    margin-left: 50px;
-    
-}
-.ds{
-
-    display: inline-block;
-    color: white;
-    font-size: 20px;
-    text-align: left;
-    max-width: 40%;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 5px;
-}
-
-.formQS{
-    background-color: #FFFFFFBB;
-    width: 300px;
-    height: 280px;
-    max-width: 300px;
     padding: 10px;
-    float: left;
-    margin-bottom: 50px;
-    margin-left: 50px;
+    
+    
 }
-.formQS h2{
-    text-align: left;
-    color: black;
+.title { 
+    font-size: 26px;
+
+}
+section{
+    padding: 20px;
+    background-image: url(../images/people.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.formContainer{
+    max-width: 230px;
+    background-color: #FFFFFFBB;
+    padding: 20px;
+    float: right;
+}
+h2{
     font-size: 16px;
 }
-
+.mb{
+    margin-bottom: 15px;
+}
 input, select{
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
-    border: none;
+    border:none ;
     margin-bottom: 10px;
 }
-
 input[type="submit"]{
-    background-color: rgb(201, 174, 54);    
-    font-size: 20px;
+    color: white;
+    background-color: #48C5CE;
+    font-weight: bold;
+}
+select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(../images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+   
 }
 footer{
-    float: left;
-    background-color: #FFFFFFBB;
-    padding: 100px;
-    width: 50%;
+    background-color: #202121;
+    padding: 40px;
+    text-align: center;
+}
+.picture{
+    width: 160px;
 }
 
-footer p{
-    font-size: 25px;
+.description{
+    color: white;
     text-align: left;
-    padding: 1px;
-
-}
-
-footer h2 a{
-    color: black;
-}
-
-.formfooter{
     display: inline-block;
-    float: right;
-    background-color: #FFFFFFBB;
-    padding: 208px;
-    width: 50%;
+    max-width: 40%;
+    margin-left: 40px;
 }
-.formfooter h2 p{
-    
-    padding: 0;
-    text-align: left;
-
+.description p, .description h3 {
+    margin-bottom: 20px;
 }
-.formfooter p{
-    font-size: 20px;
+.description h3{
+    font-size: 24px;
 }
